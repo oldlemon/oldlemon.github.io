@@ -1,0 +1,319 @@
+// основные цвета
+@main-colors: #499fd3;
+@texts: #505d68;
+@small-text: #98a7b1;
+@fon-color: #d8e9f3;
+@lights: #fff;
+@block:#f2f5f7;
+// делаем плавающий блок
+.cap{
+	margin-left: 15px;
+   position: fixed;
+   z-index: 1000;
+   width:100%;
+	padding: 20px 170px;
+	width: 100%;
+	background-color: @main-colors;
+	display: block;
+	.main-link, .logo{
+		display: inline-block;	
+	}
+	.main-link{
+		margin: 0 35px;
+		text-transform: uppercase;
+		font-size: 12px;
+	}
+	a{
+		color: white;
+	}
+	.logo{
+		margin-right: 125px;
+	}
+}
+.h1{
+	color: @texts;
+	font-size: 60px;
+	font-weight: 700;
+	text-align: center;
+}
+.main{
+	margin-top: 130px;
+	&-h1{
+		margin-bottom: 50px;
+	}
+	&-p{
+		margin-bottom: 50px;
+		text-align: center;
+		color: @small-text;
+	}
+	.btn-block{
+		text-align: center;	
+	}
+	.button{
+		background-color: #499fd3;
+		color: white;
+		text-transform: uppercase;
+		padding: 15px 30px;
+	}
+}
+.how_do_it{
+	padding-top: 80px;
+	width: 100%;
+	height: 900px;
+	background-color: @fon-color;
+	margin-top: 100px;
+	.how-p-block{
+		margin-bottom: 100px;
+	}
+	.how-h1{
+		margin-bottom: 110px;
+		text-align: center;
+	}
+	.how-round{
+		display: inline-block;
+		height: 50px;
+		width: 50px;
+		border-radius: 50%;
+		border: 1px solid @main-colors;
+		background-color: @main-colors;
+		padding: 14px 19px;
+		color: white;
+		font-weight: 800;
+		font-size: 15px;
+		margin-bottom: 15px;
+		display: block;
+	}
+	.block{
+		margin: 0 200px;
+		.how-num-1{
+			margin-left: -10px;
+		}
+		.how-num-2{
+			margin-left: 5px;
+		}
+		.how-num-3{
+			margin-left: 3px;
+		}
+	}
+	.blocks{
+		display: inline-block;
+		margin-bottom: 100px;
+	}
+	// .right-roung{
+	// 	margin-right: 5223px;
+	// }
+	.how-num{
+		// text-align: center;
+		// border: 1px solid red;
+		display: inline-block;
+	}
+	
+	
+	.information{
+		.inf-text{
+			text-align: left;
+
+		}
+		.main-inf-p{
+			margin-bottom: 15px;
+			font-size: 20px;
+			font-weight: 600;
+		}
+		.inf-p{
+			font-size: 15px;
+			color: @small-text;
+			margin-bottom: 40px;
+		}
+		.inf-img{
+			width: 550px;
+		}
+	}
+}
+.our_part{
+	padding: 80px 0;
+	.part-h1{
+		margin-top: 1px;
+		margin-bottom: 100px;
+	}
+	.icon-part{
+		text-align: center;
+		margin-bottom: 110px;
+	}
+	.part-icon{
+		text-align: center;
+		display: inline-block;
+	}
+	.part{
+		margin-bottom: 110px;
+	}
+	.part-p{
+		margin-left: 10px;
+		color: @small-text;
+		display: inline-block;
+		font-weight: 600;
+		font-size: 25px;
+	}
+}
+.otz{
+	padding-top: 60px;
+	background-color: @fon-color;
+	height: 560px;
+	&-h1{
+		margin-bottom: 60px;
+	}
+	&-blocks{
+		text-align: center;
+	}
+	.block_x {
+		text-align-last: left;
+		background-color: @block;
+		padding: 50px 30px;
+		width: 300px;
+		font-size: 20px;
+		font-weight: 200;
+		
+		color: @small-text;
+	}
+	.block_one{
+		margin: 0 61px;
+	}
+	.block_thre{
+		margin-left: 50px;
+	}
+	&-text{
+		letter-spacing: 1px;
+		margin-bottom: 50px;
+	}
+	&-link{
+		font-size: 12px;
+	}
+	&-img{
+		margin-top: 3px;
+		width: 18px;
+		margin-right: 10px;
+	}
+
+}
+.shp{
+	padding-top: 70px;
+	&-h1{
+		margin-bottom: 30px;
+	}
+	&-p{
+		margin-bottom: 90px;
+		text-align: center;
+		color: @small-text;
+	}
+	
+	strong{
+		font-size: 35px;
+		margin-right: 5px;
+	}
+	.call-text{
+		color: @texts;
+	}
+	&-bloks{
+		// border: 1px solid @small-text;
+		// text-align: center;
+	}
+	span{
+		color: @small-text;
+		text-align: left;
+	}
+	.box{
+		margin-top: 20px;
+		border-top: 1px solid @small-text;
+		width: 220px;
+		color: @small-text;
+	}
+	.inf-shp-text{
+		margin-top: 30px;
+		line-height: 30px;
+		// margin-bottom: 303px;
+
+	}
+	.call-text{
+		letter-spacing: 1px;
+	}
+	.shp-btn{
+		margin: 30px 1px 10px -10px ;
+		padding: 12px 90px;
+		background-color: @main-colors;
+		color: @lights;
+	}
+	.block_shp{
+		border: 1px solid @small-text;
+		width: 300px;
+		padding: 40px 40px;
+		margin: 0px 40px;
+	}
+	.shp_one{
+		margin-left: 57px;
+	}
+}
+.contact{
+	padding: 80px 0;
+	margin-top: 40px;
+	background-color: @fon-color;
+	height: 620px;
+	&-h1{
+
+		margin-bottom: 90px;
+	}
+	.con-main-p{
+		font-weight: 800;
+		font-size: 25px;
+		color: @texts;
+		margin-bottom: 20px;
+	}
+	.con-p{
+		color: @small-text;
+		letter-spacing: 1px;
+		margin-bottom: 50px;
+	}
+	.icon-text-con,.icon-img-con{
+		display: inline-block;
+	}
+	.icon-img-con{
+		margin-right: 10px;
+	}
+	.icon-text-con{
+		color: @small-text;
+	}
+	.con-icon{
+		margin: 25px 0;
+	}
+	input,button{
+		border: 1px solid @small-text;
+		display: block;
+		width: 360px;
+		margin-bottom: 20px;
+	}
+	.con-input{
+		padding: 8px;
+	}
+	.con-3-input{
+		height: 90px;
+		vertical-align: top;
+		
+	}
+	.form-btn {
+		padding: 12px 0;
+		background-color: @main-colors;
+		color: @lights;
+	}
+}
+.podval{
+	text-align: center;
+	margin-top: 25px;
+	.pod-icons{
+		color: @main-colors;
+		text-align: center;
+	}
+	.icon-pod{
+		margin: 30px 15px;
+	}
+	.pod-pod-p{
+		color: @small-text;
+	}
+}
